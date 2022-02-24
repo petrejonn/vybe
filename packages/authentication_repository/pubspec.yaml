@@ -1,0 +1,14 @@
+name: authentication_repository
+description: Dart package which manages the authentication domain.
+publish_to: none
+
+environment:
+  sdk: ">=2.15.1 <3.0.0"
+
+dependencies:
+  cache:
+    path: ../cache
+  firebase_auth: ^3.3.7
+  firebase_core: ^1.12.0
+  equatable: ^2.0.3
+
